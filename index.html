@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Natalia Mecner - Curriculum Vitae</title>
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One|Source+Serif+Pro:400,600" rel="stylesheet">
+    <style>
+        body {
+            padding: 0;
+            background: #dedede;
+            font-family: 'Source Serif Pro', serif;
+        }
+        em {
+            font-weight: bold;
+        }
+        .cv {
+            padding: 2cm;
+            width: 210mm;
+            background: #FFF;
+            margin: 0 auto;
+            box-sizing: border-box;
+            box-shadow: 0 0 3px #AAA;
+        }
+
+        h2 {
+            font-family: 'Poiret One';
+            font-size: 24pt;
+            font-weight: normal;
+        }
+        .timeline-list{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .timeline-list-element {
+            padding-bottom: 10pt;
+            border-bottom: 1px solid #dedede;
+        }
+        .timeline-list-element:last-child{
+            border-bottom: 0px;
+        }
+        .timeline-list-element-info{
+            display: flex;
+            font-size: 10pt;
+            font-style: italic;
+            color: #444;
+        }
+        h3 {
+            font-family: "Source Serif Pro";
+            font-size: 15pt;
+            font-weight: 600;
+        }
+        .timeline-list-element-date{
+            flex: 3;
+            font-size: 10pt;
+            font-style: italic;
+            color: #444;
+        }
+        .timeline-list-element-description {
+            flex: 6;
+        }
+        .about-me{
+            font-size: 11pt;
+            color: black;
+            font-style: italic;
+            text-align: justify;
+            background-color: #FBFBFB;
+            padding: 7pt;
+            border-radius: 30px 0;
+            box-shadow: 3px 3px 6px rgba(150, 150, 150, 0.5);
+        }
+        .me{
+            display: flex;
+            padding-bottom: 4pt;
+        }
+        .photo{
+            flex: 1;
+            text-align: center;
+        }
+        .photo img{
+            width: 65%;
+            border-radius: 50%;
+            box-shadow: 3px 3px 6px #AAA;
+        }
+        .name{
+            font-size: 30pt;
+            font-family: "Poiret One";
+
+        }
+        .personal-info{
+            flex: 1;
+        }
+        .contact-details{
+            list-style: none;
+            font-size: 13pt;
+            padding-left: 0px;
+        }
+        .timeline-list-element-author{
+            flex: 3;
+        }
+        .timeline-list-element-skills{
+            flex: 5;
+        }
+        .language-list{
+            list-style: none;
+            padding: 0;
+        }
+        .language-list li {
+            display: flex;
+        }
+        .language-name{
+            flex: 2;
+        }
+        .language-description{
+            flex: 3;
+        }
+        footer{
+            border-top: dashed #adadad 1px;
+            padding-top: 10px;
+            font-weight: 200;
+            font-size: 10pt;
+            color: #6c6c6c;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="cv">
+        <section>
+            <div class="me">
+                <div class="photo">
+                    <img src="photo.jpg">
+                </div>
+                <div class="personal-info">
+                    <h1 class="name">Natalia Mecner</h1>
+                    <ul class="contact-details">
+                        <li>
+                            Github: @nmecner
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="about-me">
+            <p>
+                I am a student and programming enthusiast who is looking for opportunity to develop as a webdeveloper. I learn quick and constantly seek to improve my skills.
+            </p>
+            <p>I am learning JavaScript and Python and have basic knowledge on the SQL and MongoDb, being willing to learn any other modern technology. I know basics of GIT.
+            </p>
+            <p>I have got excellent analytical skills and I am fluent in English and French with the knowledge of basic Portuguese. Despite my ability to self study, I am an excellent team player.
+            </p>
+        </section>
+        <section>
+            <h2>Professional Experience</h2>
+            <ul class="timeline-list">
+                <li class="timeline-list-element">
+                    <h3>Test Account Manager - Kontomierz.pl/Kontomatik</h3>
+                    <div class="timeline-list-element-info">
+                        <div class="timeline-list-element-date"> June 2017 – August 2017</div>
+                        <div class="timeline-list-element-description">Dealing with databases of test accounts and their owners, contact with clients in the FinTech branch.</div>
+                    </div>
+                </li>
+                <li class="timeline-list-element">
+                    <h3>English language instructor- Peritus Speed School</h3>
+                    <div class="timeline-list-element-info">
+                        <div class="timeline-list-element-date"> October 2016 – Present</div>
+                        <div class="timeline-list-element-description">Teaching adult individuals and groups using the English Direct method.</div>
+                    </div>
+                </li>
+                <li class="timeline-list-element">
+                    <h3>Event Organizer - MIT Enterprise Forum</h3>
+                    <div class="timeline-list-element-info">
+                        <div class="timeline-list-element-date"> March 2016 – May 2016</div>
+                        <div class="timeline-list-element-description">Help with practical aspects of organizing the acceleration program for Polish startups.</div>
+                    </div>
+                </li>
+
+                <li class="timeline-list-element">
+                    <h3>Intern - American Chamber of Commerce</h3>
+                    <div class="timeline-list-element-info">
+                        <div class="timeline-list-element-date">June 2016 – July 2016</div>
+                        <div class="timeline-list-element-description">Organizing the 4th of July Picnic, doing market research and translating documents.</div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h2>Courses Done</h2>
+            <ul class="timeline-list">
+            <li class="timeline-list-element">
+                <h3> Complete Python Bootcamp: Go from zero to hero in Python </h3>
+                    <div class="timeline-list-element-info">
+                        <div class="timeline-list-element-author">by J.Portilla on Udemy</div>
+                        <div class="timeline-list-element-skills">
+                            <em>Skills Learned:</em><br>
+                            basics of Python<br>
+                            basics of Object Oriented Programming<br>
+                            building simple applications from scratch<br>
+                        </div>
+                    </div>
+            </li>
+            <li class="timeline-list-element">
+                <h3> JavaScript in Action: JavaScript Projects </h3>
+                <div class="timeline-list-element-info">
+                    <div class="timeline-list-element-author">by Laurence Svekis on Udemy</div>
+                    <div class="timeline-list-element-skills">
+                        <em>Skills Learned:</em><br>
+                        basics of JavaScript<br>
+                    </div>
+                </div>
+            </li>
+            <li class="timeline-list-element">
+                <h3> Flask From Scratch </h3>
+                <div class="timeline-list-element-info">
+                    <div class="timeline-list-element-author">by Traversy Media on Youtube</div>
+                    <div class="timeline-list-element-skills">
+                        <em>Skills Learned:</em><br>
+                        basics of Flask framework<br>
+                    </div>
+                </div>
+            </li>
+            <li class="timeline-list-element">
+                <h3> Intro to SQL for Data Science </h3>
+                <div class="timeline-list-element-info">
+                    <div class="timeline-list-element-author">by J.Portilla on Udemy</div>
+                    <div class="timeline-list-element-skills">
+                        <em>Skills Learned:</em><br>
+                        Basic SQL (MySQL and PostgreSQL)
+                        basics of Data Science
+                    </div>
+                </div>
+            </li>
+            </ul>
+        </section>
+        <section>
+            <h2>Courses In Progress</h2>
+            <ul class="timeline-list">
+                <li class="timeline-list-element">
+                    <h3> Joining Data in PostgreSQL </h3>
+                    <div class="timeline-list-element-info">
+                        <div class="timeline-list-element-author">on DataCamp platform</div>
+                    </div>
+                </li>
+                <li class="timeline-list-element">
+                    <h3> Programming in R in Finances </h3>
+                    <div class="timeline-list-element-info">
+                        <div class="timeline-list-element-author">by University Of Warsaw (part of studies curriculum)</div>
+                    </div>
+                </li>
+                <li class="timeline-list-element">
+                    <h3> Basic Statistics </h3>
+                    <div class="timeline-list-element-info">
+                        <div class="timeline-list-element-author">by University of Amsterdam (on Coursera)</div>
+                    </div>
+                </li>
+                <li class="timeline-list-element">
+                    <h3> ExpressJS Fundamentals </h3>
+                    <div class="timeline-list-element-info">
+                        <div class="timeline-list-element-author">by Patrick Shroeder on Udemy</div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h2>Education</h2>
+            <ul class="timeline-list">
+                <li class="timeline-list-element">
+                    <h3> American Studies - University of Warsaw </h3>
+                    <div class="timeline-list-element-info">
+                        <div class="timeline-list-element-date">October 2015 – Present</div>
+                        <div class="timeline-list-element-description">Studies with English as a working language</div>
+                    </div>
+                </li>
+                <li class="timeline-list-element">
+                    <h3> Kopernik High School in Katowice</h3>
+                    <div class="timeline-list-element-info">
+                        <div class="timeline-list-element-date">2012-2015</div>
+                        <div class="timeline-list-element-description">Bilingual class with French as a working language </div>
+                    </div>
+                </li>
+            </ul>
+
+        </section>
+        <section>
+            <h2>Languages</h2>
+            <ul class="language-list">
+                <li>
+                    <div class="language-name">Polish</div>
+                    <div class="language-description">Native</div>
+                </li>
+                <li>
+                    <div class="language-name">English</div>
+                    <div class="language-description">Full Professional Proficiency</div>
+                </li>
+                <li>
+                    <div class="language-name">French</div>
+                    <div class="language-description">Advanced (Certificate B2)</div>
+                </li>
+                <li>
+                    <div class="language-name">Portugese</div>
+                    <div class="language-description">Basic</div>
+                </li>
+            </ul>
+
+
+        </section>
+        <section>
+            <h2>Events And Hackathons</h2>
+            <ul class="timeline-list">
+                <li class="timeline-list-element">
+                    <h3>Hackathon: Allegro Tech Days</h3>
+                    <div class="timeline-list-element-info">
+                        <div class="timeline-list-element-date"> June 2017</div>
+                        <div class="timeline-list-element-description">Team: Podwójny Tandem, goal: webapp + mobile app destined to coordinate the efforts to make roads safe for cyclists.</div>
+                    </div>
+                </li>
+                <li class="timeline-list-element">
+                    <h3>Mini-warsztaty z testów jednostkowych Warszawa | Girls Who Test</h3>
+                </li>
+                <li class="timeline-list-element"><h3> Jak wykorzystać trendy? | Ladies that UX Warsaw </h3> </li>
+            </ul>
+        </section>
+        <section>
+            <h2>Interests</h2>
+           <p>
+               Technology, Traveling, Languages, Politics
+           </p>
+        </section>
+        <footer>
+            I hereby authorize you to process my personal data included in my job application for the needs of the recruitment process (in accordance with the Personnel Protection Act of 29.08.1997 no 133 position 883). Dz. U. z 2002 r., Nr 101, poz. 926, ze zm.).
+        </footer>
+    </div>
+
+
+</body>
+</html>
