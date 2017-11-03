@@ -79,7 +79,7 @@
         }
         .photo img{
             width: 65%;
-            border-radius: 50%;
+            border-radius: 50% 10%;
             box-shadow: 3px 3px 6px #AAA;
         }
         .name{
@@ -122,6 +122,34 @@
             color: #6c6c6c;
             text-align: center;
         }
+
+        section {
+            page-break-inside: avoid;
+        }
+
+        @media print {
+            @page {ni
+                margin: 2cm;
+            }
+            body {
+                background: transparent;
+            }
+            .cv {
+                background: transparent;
+                padding: 0;
+                box-shadow: none;
+            }
+            .about-me {
+                margin: 0 1em;
+            }
+
+            footer {
+                position: fixed;
+                bottom: 0;
+                left: 0;
+            }
+        }
+
     </style>
 </head>
 <body>
